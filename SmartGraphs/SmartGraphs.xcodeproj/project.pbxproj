@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950645891BBE5E8C00C4CD9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 950645881BBE5E8C00C4CD9A /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		950645831BBE5E8C00C4CD9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		950645851BBE5E8C00C4CD9A /* SmartGraphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartGraphs; sourceTree = BUILT_PRODUCTS_DIR; };
+		950645881BBE5E8C00C4CD9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9506458F1BBE5ECB00C4CD9A /* IGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGraph.h; sourceTree = "<group>"; };
+		950645901BBE5EED00C4CD9A /* Edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		950645911BBE5F5B00C4CD9A /* SmartGraphs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartGraphs.h; sourceTree = "<group>"; };
+		950645941BBEF35200C4CD9A /* Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation.h; sourceTree = "<group>"; };
+		95680C181BC17C22005288E1 /* ArcGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcGraph.h; sourceTree = "<group>"; };
+		95680C1B1BC17E59005288E1 /* GraphConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphConstants.h; sourceTree = "<group>"; };
+		95680C1C1BC447FA005288E1 /* NetworkGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkGraph.h; sourceTree = "<group>"; };
+		95680C1E1BC44CE4005288E1 /* NetworkMultiGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkMultiGraph.h; sourceTree = "<group>"; };
+		95680C201BC44D9A005288E1 /* NetworkEdgeInfoWithID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkEdgeInfoWithID.h; sourceTree = "<group>"; };
+		95B0DE9B1BC507CD00F5AB7A /* LayeredNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayeredNetworkManager.h; sourceTree = "<group>"; };
+		95B0DE9D1BC516E200F5AB7A /* ResidualNetworkGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResidualNetworkGraph.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		950645821BBE5E8C00C4CD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9506457C1BBE5E8C00C4CD9A = {
+			isa = PBXGroup;
+			children = (
+				950645871BBE5E8C00C4CD9A /* SmartGraphs */,
+				950645861BBE5E8C00C4CD9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		950645861BBE5E8C00C4CD9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950645851BBE5E8C00C4CD9A /* SmartGraphs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		950645871BBE5E8C00C4CD9A /* SmartGraphs */ = {
+			isa = PBXGroup;
+			children = (
+				950645881BBE5E8C00C4CD9A /* main.cpp */,
+				950645911BBE5F5B00C4CD9A /* SmartGraphs.h */,
+				950645941BBEF35200C4CD9A /* Foundation.h */,
+				95680C1B1BC17E59005288E1 /* GraphConstants.h */,
+				9506458F1BBE5ECB00C4CD9A /* IGraph.h */,
+				95680C181BC17C22005288E1 /* ArcGraph.h */,
+				95680C1C1BC447FA005288E1 /* NetworkGraph.h */,
+				95B0DE9D1BC516E200F5AB7A /* ResidualNetworkGraph.h */,
+				95B0DE9B1BC507CD00F5AB7A /* LayeredNetworkManager.h */,
+				95680C201BC44D9A005288E1 /* NetworkEdgeInfoWithID.h */,
+				95680C1E1BC44CE4005288E1 /* NetworkMultiGraph.h */,
+				950645901BBE5EED00C4CD9A /* Edge.h */,
+			);
+			path = SmartGraphs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		950645841BBE5E8C00C4CD9A /* SmartGraphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9506458C1BBE5E8C00C4CD9A /* Build configuration list for PBXNativeTarget "SmartGraphs" */;
+			buildPhases = (
+				950645811BBE5E8C00C4CD9A /* Sources */,
+				950645821BBE5E8C00C4CD9A /* Frameworks */,
+				950645831BBE5E8C00C4CD9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGraphs;
+			productName = SmartGraphs;
+			productReference = 950645851BBE5E8C00C4CD9A /* SmartGraphs */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9506457D1BBE5E8C00C4CD9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Alexander Malyshev";
+				TargetAttributes = {
+					950645841BBE5E8C00C4CD9A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 950645801BBE5E8C00C4CD9A /* Build configuration list for PBXProject "SmartGraphs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9506457C1BBE5E8C00C4CD9A;
+			productRefGroup = 950645861BBE5E8C00C4CD9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				950645841BBE5E8C00C4CD9A /* SmartGraphs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		950645811BBE5E8C00C4CD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950645891BBE5E8C00C4CD9A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9506458A1BBE5E8C00C4CD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9506458B1BBE5E8C00C4CD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9506458D1BBE5E8C00C4CD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9506458E1BBE5E8C00C4CD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		950645801BBE5E8C00C4CD9A /* Build configuration list for PBXProject "SmartGraphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9506458A1BBE5E8C00C4CD9A /* Debug */,
+				9506458B1BBE5E8C00C4CD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9506458C1BBE5E8C00C4CD9A /* Build configuration list for PBXNativeTarget "SmartGraphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9506458D1BBE5E8C00C4CD9A /* Debug */,
+				9506458E1BBE5E8C00C4CD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9506457D1BBE5E8C00C4CD9A /* Project object */;
+}
