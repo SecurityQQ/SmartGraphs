@@ -34,6 +34,8 @@
 		95680C1C1BC447FA005288E1 /* NetworkGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkGraph.h; sourceTree = "<group>"; };
 		95680C1E1BC44CE4005288E1 /* NetworkMultiGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkMultiGraph.h; sourceTree = "<group>"; };
 		95680C201BC44D9A005288E1 /* NetworkEdgeInfoWithID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkEdgeInfoWithID.h; sourceTree = "<group>"; };
+		959B00641BCB5CE2007B9705 /* LayeredNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayeredNetwork.h; sourceTree = "<group>"; };
+		959B00651BCB8197007B9705 /* GraphManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphManager.h; sourceTree = "<group>"; };
 		95B0DE9B1BC507CD00F5AB7A /* LayeredNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayeredNetworkManager.h; sourceTree = "<group>"; };
 		95B0DE9D1BC516E200F5AB7A /* ResidualNetworkGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResidualNetworkGraph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +78,9 @@
 				95680C181BC17C22005288E1 /* ArcGraph.h */,
 				95680C1C1BC447FA005288E1 /* NetworkGraph.h */,
 				95B0DE9D1BC516E200F5AB7A /* ResidualNetworkGraph.h */,
+				959B00641BCB5CE2007B9705 /* LayeredNetwork.h */,
 				95B0DE9B1BC507CD00F5AB7A /* LayeredNetworkManager.h */,
+				959B00651BCB8197007B9705 /* GraphManager.h */,
 				95680C201BC44D9A005288E1 /* NetworkEdgeInfoWithID.h */,
 				95680C1E1BC44CE4005288E1 /* NetworkMultiGraph.h */,
 				950645901BBE5EED00C4CD9A /* Edge.h */,

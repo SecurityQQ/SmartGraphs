@@ -18,10 +18,12 @@
 class NetworkGraph: public ArcGraph<NetworkEdgeInfoWithID> {
     
 public:
-    NetworkGraph(const VertexType numberOfVertexes): ArcGraph<NetworkEdgeInfoWithID>(numberOfVertexes) {};
+    NetworkGraph(const VertexType numberOfVertexes, const VertexType source, const VertexType sink): ArcGraph<NetworkEdgeInfoWithID>(numberOfVertexes), source(source), sink(sink) {};
     virtual CapacityType getCapacity(std::shared_ptr<Edge<NetworkEdgeInfoWithID>> edge) {
         return edge->info()->capacity();
     }
+    const VertexType source;
+    const VertexType sink;
 private:
 
 };

@@ -12,7 +12,8 @@
 #include "NetworkEdgeInfoWithID.h"
 #include "NetworkGraph.h"
 #include "LayeredNetworkManager.h"
-
+#include "LayeredNetwork.h"
+#include "GraphManager.h"
 #undef DEBUG
 
 int main(int argc, const char * argv[]) {

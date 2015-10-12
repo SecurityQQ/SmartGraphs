@@ -18,7 +18,7 @@
 class ResidualNetworkGraph: public NetworkGraph {
     
 public:
-    ResidualNetworkGraph(const VertexType numberOfVertexes): NetworkGraph(numberOfVertexes) {};
+    ResidualNetworkGraph(const VertexType numberOfVertexes, const VertexType source, const VertexType sink): NetworkGraph(numberOfVertexes, source, sink) {};
     CapacityType getCapacity(std::shared_ptr<Edge<NetworkEdgeInfoWithID>> edge) {
         return edge->info()->capacity() - edge->info()->flow();
     }
@@ -35,8 +35,6 @@ public:
         } else {
             reversedEdge->info()->setCapacity(reversedEdge->info()->capacity() + flow);
         }
-// TODO: implement this
-        //remade capacities
     }
 
 private:
